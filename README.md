@@ -10,3 +10,5 @@ npm start
 ```
 
 The presentations will be live at http://localhost:8000
+
+## Alternatively, the project is also live at: https://presentations-dqj9ea6dt-krutartha.vercel.app/ 
