@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+
+		<title>Save Soil</title>
+
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/serif.css" id="theme">
+
+        <!-- <link rel="stylesheet" href="../plugin/highlight/monokai.css"> -->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+                <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+                <section  data-markdown="./script.md" data-separator="\n---\n$" data-separator-vertical="\n--\n$">
+                </section>
+            </div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+        <script src="../plugin/markdown/markdown.js"></script>
+        <script src="../plugin/highlight/highlight.js"></script>
+        <script src="../plugin/notes/notes.js"></script>
+        <script src="../plugin/math/math.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+
+		</script>
+
+	</body>
+</html>
